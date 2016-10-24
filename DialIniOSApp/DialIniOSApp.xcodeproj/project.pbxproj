@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88890A751DBC4D00006C2F51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88890A741DBC4D00006C2F51 /* main.m */; };
+		88890A781DBC4D00006C2F51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88890A771DBC4D00006C2F51 /* AppDelegate.m */; };
+		88890A7B1DBC4D00006C2F51 /* DIALMainCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88890A7A1DBC4D00006C2F51 /* DIALMainCollectionViewController.m */; };
+		88890A811DBC4D00006C2F51 /* DialIniOSApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88890A7F1DBC4D00006C2F51 /* DialIniOSApp.xcdatamodeld */; };
+		88890A831DBC4D00006C2F51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88890A821DBC4D00006C2F51 /* Assets.xcassets */; };
+		88890A911DBC4D00006C2F51 /* DialIniOSAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88890A901DBC4D00006C2F51 /* DialIniOSAppTests.m */; };
+		88890A9C1DBC4D00006C2F51 /* DialIniOSAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88890A9B1DBC4D00006C2F51 /* DialIniOSAppUITests.m */; };
+		88890AAB1DBC53FA006C2F51 /* DIALCategoryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 88890AAA1DBC53FA006C2F51 /* DIALCategoryObject.m */; };
+		88890AAE1DBC5C7B006C2F51 /* DIALCategoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88890AAD1DBC5C7B006C2F51 /* DIALCategoryCollectionViewCell.m */; };
+		888E9DBD1DBC7FDC00D4FCA0 /* DIALCollectionViewFloatLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 888E9DBC1DBC7FDC00D4FCA0 /* DIALCollectionViewFloatLayout.m */; };
+		888E9DC11DBDE7C200D4FCA0 /* ABMKNetworkRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 888E9DBF1DBDE7C100D4FCA0 /* ABMKNetworkRequestOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88890A8D1DBC4D00006C2F51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88890A681DBC4D00006C2F51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88890A6F1DBC4D00006C2F51;
+			remoteInfo = DialIniOSApp;
+		};
+		88890A981DBC4D00006C2F51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88890A681DBC4D00006C2F51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88890A6F1DBC4D00006C2F51;
+			remoteInfo = DialIniOSApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88890A701DBC4D00006C2F51 /* DialIniOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DialIniOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88890A741DBC4D00006C2F51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88890A761DBC4D00006C2F51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88890A771DBC4D00006C2F51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88890A791DBC4D00006C2F51 /* DIALMainCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIALMainCollectionViewController.h; sourceTree = "<group>"; };
+		88890A7A1DBC4D00006C2F51 /* DIALMainCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIALMainCollectionViewController.m; sourceTree = "<group>"; };
+		88890A801DBC4D00006C2F51 /* DialIniOSApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DialIniOSApp.xcdatamodel; sourceTree = "<group>"; };
+		88890A821DBC4D00006C2F51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88890A871DBC4D00006C2F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88890A8C1DBC4D00006C2F51 /* DialIniOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DialIniOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88890A901DBC4D00006C2F51 /* DialIniOSAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DialIniOSAppTests.m; sourceTree = "<group>"; };
+		88890A921DBC4D00006C2F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88890A971DBC4D00006C2F51 /* DialIniOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DialIniOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88890A9B1DBC4D00006C2F51 /* DialIniOSAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DialIniOSAppUITests.m; sourceTree = "<group>"; };
+		88890A9D1DBC4D00006C2F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88890AA91DBC53FA006C2F51 /* DIALCategoryObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIALCategoryObject.h; sourceTree = "<group>"; };
+		88890AAA1DBC53FA006C2F51 /* DIALCategoryObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIALCategoryObject.m; sourceTree = "<group>"; };
+		88890AAC1DBC5C7B006C2F51 /* DIALCategoryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIALCategoryCollectionViewCell.h; sourceTree = "<group>"; };
+		88890AAD1DBC5C7B006C2F51 /* DIALCategoryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIALCategoryCollectionViewCell.m; sourceTree = "<group>"; };
+		888E9DBB1DBC7FDC00D4FCA0 /* DIALCollectionViewFloatLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIALCollectionViewFloatLayout.h; sourceTree = "<group>"; };
+		888E9DBC1DBC7FDC00D4FCA0 /* DIALCollectionViewFloatLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIALCollectionViewFloatLayout.m; sourceTree = "<group>"; };
+		888E9DBE1DBDE7C100D4FCA0 /* ABMKNetworkRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABMKNetworkRequestOperation.h; sourceTree = "<group>"; };
+		888E9DBF1DBDE7C100D4FCA0 /* ABMKNetworkRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABMKNetworkRequestOperation.m; sourceTree = "<group>"; };
+		888E9DC01DBDE7C100D4FCA0 /* ABMKNetworkRequestOperation+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ABMKNetworkRequestOperation+Subclass.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88890A6D1DBC4D00006C2F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88890A891DBC4D00006C2F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88890A941DBC4D00006C2F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88890A671DBC4D00006C2F51 = {
+			isa = PBXGroup;
+			children = (
+				88890A721DBC4D00006C2F51 /* DialIniOSApp */,
+				88890A8F1DBC4D00006C2F51 /* DialIniOSAppTests */,
+				88890A9A1DBC4D00006C2F51 /* DialIniOSAppUITests */,
+				88890A711DBC4D00006C2F51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88890A711DBC4D00006C2F51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88890A701DBC4D00006C2F51 /* DialIniOSApp.app */,
+				88890A8C1DBC4D00006C2F51 /* DialIniOSAppTests.xctest */,
+				88890A971DBC4D00006C2F51 /* DialIniOSAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88890A721DBC4D00006C2F51 /* DialIniOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				888E9DC61DBDE81000D4FCA0 /* Shared */,
+				888E9DC51DBDE7ED00D4FCA0 /* Models */,
+				888E9DC41DBDE7DF00D4FCA0 /* Controllers */,
+				888E9DC31DBDE7DA00D4FCA0 /* Views */,
+				888E9DC21DBDE7CC00D4FCA0 /* Networking */,
+				88890A821DBC4D00006C2F51 /* Assets.xcassets */,
+				88890A871DBC4D00006C2F51 /* Info.plist */,
+				88890A7F1DBC4D00006C2F51 /* DialIniOSApp.xcdatamodeld */,
+				88890A731DBC4D00006C2F51 /* Supporting Files */,
+			);
+			path = DialIniOSApp;
+			sourceTree = "<group>";
+		};
+		88890A731DBC4D00006C2F51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88890A741DBC4D00006C2F51 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88890A8F1DBC4D00006C2F51 /* DialIniOSAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				88890A901DBC4D00006C2F51 /* DialIniOSAppTests.m */,
+				88890A921DBC4D00006C2F51 /* Info.plist */,
+			);
+			path = DialIniOSAppTests;
+			sourceTree = "<group>";
+		};
+		88890A9A1DBC4D00006C2F51 /* DialIniOSAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88890A9B1DBC4D00006C2F51 /* DialIniOSAppUITests.m */,
+				88890A9D1DBC4D00006C2F51 /* Info.plist */,
+			);
+			path = DialIniOSAppUITests;
+			sourceTree = "<group>";
+		};
+		888E9DC21DBDE7CC00D4FCA0 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				888E9DBE1DBDE7C100D4FCA0 /* ABMKNetworkRequestOperation.h */,
+				888E9DBF1DBDE7C100D4FCA0 /* ABMKNetworkRequestOperation.m */,
+				888E9DC01DBDE7C100D4FCA0 /* ABMKNetworkRequestOperation+Subclass.h */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		888E9DC31DBDE7DA00D4FCA0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				88890AAC1DBC5C7B006C2F51 /* DIALCategoryCollectionViewCell.h */,
+				88890AAD1DBC5C7B006C2F51 /* DIALCategoryCollectionViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		888E9DC41DBDE7DF00D4FCA0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				888E9DBB1DBC7FDC00D4FCA0 /* DIALCollectionViewFloatLayout.h */,
+				888E9DBC1DBC7FDC00D4FCA0 /* DIALCollectionViewFloatLayout.m */,
+				88890A791DBC4D00006C2F51 /* DIALMainCollectionViewController.h */,
+				88890A7A1DBC4D00006C2F51 /* DIALMainCollectionViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		888E9DC51DBDE7ED00D4FCA0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				88890AA91DBC53FA006C2F51 /* DIALCategoryObject.h */,
+				88890AAA1DBC53FA006C2F51 /* DIALCategoryObject.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		888E9DC61DBDE81000D4FCA0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				88890A761DBC4D00006C2F51 /* AppDelegate.h */,
+				88890A771DBC4D00006C2F51 /* AppDelegate.m */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88890A6F1DBC4D00006C2F51 /* DialIniOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88890AA01DBC4D00006C2F51 /* Build configuration list for PBXNativeTarget "DialIniOSApp" */;
+			buildPhases = (
+				88890A6C1DBC4D00006C2F51 /* Sources */,
+				88890A6D1DBC4D00006C2F51 /* Frameworks */,
+				88890A6E1DBC4D00006C2F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DialIniOSApp;
+			productName = DialIniOSApp;
+			productReference = 88890A701DBC4D00006C2F51 /* DialIniOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88890A8B1DBC4D00006C2F51 /* DialIniOSAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88890AA31DBC4D00006C2F51 /* Build configuration list for PBXNativeTarget "DialIniOSAppTests" */;
+			buildPhases = (
+				88890A881DBC4D00006C2F51 /* Sources */,
+				88890A891DBC4D00006C2F51 /* Frameworks */,
+				88890A8A1DBC4D00006C2F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88890A8E1DBC4D00006C2F51 /* PBXTargetDependency */,
+			);
+			name = DialIniOSAppTests;
+			productName = DialIniOSAppTests;
+			productReference = 88890A8C1DBC4D00006C2F51 /* DialIniOSAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88890A961DBC4D00006C2F51 /* DialIniOSAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88890AA61DBC4D00006C2F51 /* Build configuration list for PBXNativeTarget "DialIniOSAppUITests" */;
+			buildPhases = (
+				88890A931DBC4D00006C2F51 /* Sources */,
+				88890A941DBC4D00006C2F51 /* Frameworks */,
+				88890A951DBC4D00006C2F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88890A991DBC4D00006C2F51 /* PBXTargetDependency */,
+			);
+			name = DialIniOSAppUITests;
+			productName = DialIniOSAppUITests;
+			productReference = 88890A971DBC4D00006C2F51 /* DialIniOSAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88890A681DBC4D00006C2F51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Esposito, Timothy";
+				TargetAttributes = {
+					88890A6F1DBC4D00006C2F51 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					88890A8B1DBC4D00006C2F51 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 88890A6F1DBC4D00006C2F51;
+					};
+					88890A961DBC4D00006C2F51 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 88890A6F1DBC4D00006C2F51;
+					};
+				};
+			};
+			buildConfigurationList = 88890A6B1DBC4D00006C2F51 /* Build configuration list for PBXProject "DialIniOSApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88890A671DBC4D00006C2F51;
+			productRefGroup = 88890A711DBC4D00006C2F51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88890A6F1DBC4D00006C2F51 /* DialIniOSApp */,
+				88890A8B1DBC4D00006C2F51 /* DialIniOSAppTests */,
+				88890A961DBC4D00006C2F51 /* DialIniOSAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88890A6E1DBC4D00006C2F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88890A831DBC4D00006C2F51 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88890A8A1DBC4D00006C2F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88890A951DBC4D00006C2F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88890A6C1DBC4D00006C2F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88890A7B1DBC4D00006C2F51 /* DIALMainCollectionViewController.m in Sources */,
+				88890A781DBC4D00006C2F51 /* AppDelegate.m in Sources */,
+				88890AAE1DBC5C7B006C2F51 /* DIALCategoryCollectionViewCell.m in Sources */,
+				88890AAB1DBC53FA006C2F51 /* DIALCategoryObject.m in Sources */,
+				88890A811DBC4D00006C2F51 /* DialIniOSApp.xcdatamodeld in Sources */,
+				888E9DBD1DBC7FDC00D4FCA0 /* DIALCollectionViewFloatLayout.m in Sources */,
+				88890A751DBC4D00006C2F51 /* main.m in Sources */,
+				888E9DC11DBDE7C200D4FCA0 /* ABMKNetworkRequestOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88890A881DBC4D00006C2F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88890A911DBC4D00006C2F51 /* DialIniOSAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88890A931DBC4D00006C2F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88890A9C1DBC4D00006C2F51 /* DialIniOSAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88890A8E1DBC4D00006C2F51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88890A6F1DBC4D00006C2F51 /* DialIniOSApp */;
+			targetProxy = 88890A8D1DBC4D00006C2F51 /* PBXContainerItemProxy */;
+		};
+		88890A991DBC4D00006C2F51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88890A6F1DBC4D00006C2F51 /* DialIniOSApp */;
+			targetProxy = 88890A981DBC4D00006C2F51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		88890A9E1DBC4D00006C2F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88890A9F1DBC4D00006C2F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88890AA11DBC4D00006C2F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DialIniOSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dialin.DialIniOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88890AA21DBC4D00006C2F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DialIniOSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dialin.DialIniOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		88890AA41DBC4D00006C2F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DialIniOSAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dialin.DialIniOSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DialIniOSApp.app/DialIniOSApp";
+			};
+			name = Debug;
+		};
+		88890AA51DBC4D00006C2F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DialIniOSAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dialin.DialIniOSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DialIniOSApp.app/DialIniOSApp";
+			};
+			name = Release;
+		};
+		88890AA71DBC4D00006C2F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DialIniOSAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dialin.DialIniOSAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DialIniOSApp;
+			};
+			name = Debug;
+		};
+		88890AA81DBC4D00006C2F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DialIniOSAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dialin.DialIniOSAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DialIniOSApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88890A6B1DBC4D00006C2F51 /* Build configuration list for PBXProject "DialIniOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88890A9E1DBC4D00006C2F51 /* Debug */,
+				88890A9F1DBC4D00006C2F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88890AA01DBC4D00006C2F51 /* Build configuration list for PBXNativeTarget "DialIniOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88890AA11DBC4D00006C2F51 /* Debug */,
+				88890AA21DBC4D00006C2F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88890AA31DBC4D00006C2F51 /* Build configuration list for PBXNativeTarget "DialIniOSAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88890AA41DBC4D00006C2F51 /* Debug */,
+				88890AA51DBC4D00006C2F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88890AA61DBC4D00006C2F51 /* Build configuration list for PBXNativeTarget "DialIniOSAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88890AA71DBC4D00006C2F51 /* Debug */,
+				88890AA81DBC4D00006C2F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		88890A7F1DBC4D00006C2F51 /* DialIniOSApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				88890A801DBC4D00006C2F51 /* DialIniOSApp.xcdatamodel */,
+			);
+			currentVersion = 88890A801DBC4D00006C2F51 /* DialIniOSApp.xcdatamodel */;
+			path = DialIniOSApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 88890A681DBC4D00006C2F51 /* Project object */;
+}
