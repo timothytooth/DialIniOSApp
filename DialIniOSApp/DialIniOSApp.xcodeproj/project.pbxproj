@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8861D5971DC4CB5A004ADE4D /* DIALTestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8861D5961DC4CB5A004ADE4D /* DIALTestTableViewController.m */; };
+		8861D59A1DC4CDDC004ADE4D /* DIALRootPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8861D5991DC4CDDC004ADE4D /* DIALRootPageViewController.m */; };
 		88890A751DBC4D00006C2F51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88890A741DBC4D00006C2F51 /* main.m */; };
 		88890A781DBC4D00006C2F51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88890A771DBC4D00006C2F51 /* AppDelegate.m */; };
 		88890A7B1DBC4D00006C2F51 /* DIALMainCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88890A7A1DBC4D00006C2F51 /* DIALMainCollectionViewController.m */; };
@@ -38,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8861D5951DC4CB5A004ADE4D /* DIALTestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIALTestTableViewController.h; sourceTree = "<group>"; };
+		8861D5961DC4CB5A004ADE4D /* DIALTestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIALTestTableViewController.m; sourceTree = "<group>"; };
+		8861D5981DC4CDDC004ADE4D /* DIALRootPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIALRootPageViewController.h; sourceTree = "<group>"; };
+		8861D5991DC4CDDC004ADE4D /* DIALRootPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIALRootPageViewController.m; sourceTree = "<group>"; };
 		88890A701DBC4D00006C2F51 /* DialIniOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DialIniOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88890A741DBC4D00006C2F51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88890A761DBC4D00006C2F51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -177,6 +183,10 @@
 				888E9DBC1DBC7FDC00D4FCA0 /* DIALCollectionViewFloatLayout.m */,
 				88890A791DBC4D00006C2F51 /* DIALMainCollectionViewController.h */,
 				88890A7A1DBC4D00006C2F51 /* DIALMainCollectionViewController.m */,
+				8861D5951DC4CB5A004ADE4D /* DIALTestTableViewController.h */,
+				8861D5961DC4CB5A004ADE4D /* DIALTestTableViewController.m */,
+				8861D5981DC4CDDC004ADE4D /* DIALRootPageViewController.h */,
+				8861D5991DC4CDDC004ADE4D /* DIALRootPageViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -328,11 +338,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				88890A7B1DBC4D00006C2F51 /* DIALMainCollectionViewController.m in Sources */,
+				8861D5971DC4CB5A004ADE4D /* DIALTestTableViewController.m in Sources */,
 				88890A781DBC4D00006C2F51 /* AppDelegate.m in Sources */,
 				88890AAE1DBC5C7B006C2F51 /* DIALCategoryCollectionViewCell.m in Sources */,
 				88890AAB1DBC53FA006C2F51 /* DIALCategoryObject.m in Sources */,
 				88890A811DBC4D00006C2F51 /* DialIniOSApp.xcdatamodeld in Sources */,
 				888E9DBD1DBC7FDC00D4FCA0 /* DIALCollectionViewFloatLayout.m in Sources */,
+				8861D59A1DC4CDDC004ADE4D /* DIALRootPageViewController.m in Sources */,
 				88890A751DBC4D00006C2F51 /* main.m in Sources */,
 				888E9DC11DBDE7C200D4FCA0 /* ABMKNetworkRequestOperation.m in Sources */,
 			);

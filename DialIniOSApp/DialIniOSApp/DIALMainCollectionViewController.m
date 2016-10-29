@@ -11,7 +11,7 @@
 #import "DIALCategoryObject.h"
 #import "DIALCollectionViewFloatLayout.h"
 
-@interface DIALMainCollectionViewController ()<DIALCollectionViewFloatLayoutDelegate>
+@interface DIALMainCollectionViewController ()
 
 
 /**
@@ -41,10 +41,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    if([self.collectionView.collectionViewLayout isKindOfClass:[DIALCollectionViewFloatLayout class]]) {
-        ((DIALCollectionViewFloatLayout *)self.collectionView.collectionViewLayout).delegate = self;
-    }
 }
 
 #pragma mark - UICollectionViewDataSource methods
@@ -68,10 +64,8 @@
 
 #pragma mark - UICollectionViewDelegate methods
 
-#pragma mark - DIALCollectionViewFloatLayoutDelegate method
-
-- (CGFloat)preferredItemHeight {
-    return CGRectGetWidth(self.collectionView.bounds);
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    
 }
 
 @end

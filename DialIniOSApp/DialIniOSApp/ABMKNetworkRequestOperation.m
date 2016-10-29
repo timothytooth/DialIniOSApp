@@ -8,13 +8,6 @@
 
 #import "ABMKNetworkRequestOperation.h"
 
-#import "ABReadOnlyUserDefaults.h"
-#import "ABCommonsConstants.h"
-#import "NSMutableURLRequest+AudibleHeaders.h"
-
-#import <AmazoniOSCommons/NSMutableURLRequest+AMZRequestSigning.h>
-#import <AmazoniOSCommons/ABLoggingManager.h>
-
 NS_ASSUME_NONNULL_BEGIN
 
 NSString *const ABMKNetworkRequestDomain = @"ABMKNetworkRequestDomain";
@@ -82,7 +75,7 @@ typedef NS_ENUM(NSUInteger, ABMKNetworkRequestOperationState) {
     self.state = ABMKNetworkRequestOperationStateExecuting;
 
     // Build the endpoint URL
-    NSURL *audibleAPIURL = [NSURL URLWithString:[[ABReadOnlyUserDefaults standardUserDefaults] objectForKey:kDefaultAudibleAPIEndpointKey]];
+    NSURL *audibleAPIURL = @""; //[NSURL URLWithString:[[ABReadOnlyUserDefaults standardUserDefaults] objectForKey:kDefaultAudibleAPIEndpointKey]];
     NSURL *baseURL = [NSURL URLWithString:self.networkRequestURLString relativeToURL:audibleAPIURL];
 
     NSURLComponents *components = [[NSURLComponents alloc] initWithURL:baseURL resolvingAgainstBaseURL:YES];
@@ -101,9 +94,9 @@ typedef NS_ENUM(NSUInteger, ABMKNetworkRequestOperationState) {
     [request setValue:@"application/json" forHTTPHeaderField:@"Accept"];
     request.cachePolicy = self.networkRequestCachePolicy;
 
-    [request addStandardAmazonHeaders];
+//    [request addStandardAmazonHeaders];
 
-    BOOL success = [request signRequestForADPAuthenticatorWithRequestSigningPair:self.requestSigningPair];
+    BOOL success = YES; // [request signRequestForADPAuthenticatorWithRequestSigningPair:self.requestSigningPair];
     if (!success) {
         NSDictionary *userInfo = @{ NSLocalizedDescriptionKey : [NSString stringWithFormat:@"Signing failed for request: %@ signing pair: %@", request, self.requestSigningPair] };
         NSError *signingError = [NSError errorWithDomain:ABMKNetworkRequestDomain code:ABMKNetworkRequestErrorCodeRequestSigningFailed userInfo:userInfo];
@@ -256,7 +249,6 @@ typedef NS_ENUM(NSUInteger, ABMKNetworkRequestOperationState) {
                 break;
             default:
                 NSAssert(NO, @"Unknown Network Request Operation State: %ld", (unsigned long)state);
-                LogWarningSwift(@"Unknown Network Request Operation State: %ld", (unsigned long)state);
                 break;
         }
     }
