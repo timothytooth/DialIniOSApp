@@ -13,7 +13,6 @@
 
 @interface DIALMainCollectionViewController ()
 
-
 /**
  * The category object array
  */

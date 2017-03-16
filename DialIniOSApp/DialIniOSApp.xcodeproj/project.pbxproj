@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		882772AE1DD7A64E000742CA /* DIALBroadcastTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882772AD1DD7A64E000742CA /* DIALBroadcastTableViewController.m */; };
+		882772B11DD7A74D000742CA /* DIALBroadcastTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 882772B01DD7A74D000742CA /* DIALBroadcastTableViewCell.m */; };
+		882772B41DD7BF83000742CA /* DIALBroadcastObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 882772B31DD7BF83000742CA /* DIALBroadcastObject.m */; };
+		884EB99E1E3D49320013619C /* DIALFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884EB99D1E3D49320013619C /* DIALFriendViewController.m */; };
+		884EB9A11E3D49460013619C /* DIALProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884EB9A01E3D49460013619C /* DIALProfileViewController.m */; };
+		8853FA851E75D4B900614D08 /* DIALTempStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8853FA841E75D4B900614D08 /* DIALTempStorage.m */; };
 		8861D5971DC4CB5A004ADE4D /* DIALTestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8861D5961DC4CB5A004ADE4D /* DIALTestTableViewController.m */; };
 		8861D59A1DC4CDDC004ADE4D /* DIALRootPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8861D5991DC4CDDC004ADE4D /* DIALRootPageViewController.m */; };
+		8861D5A61DC5140F004ADE4D /* DIALPageViewControllerTitleBarCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8861D5A41DC5140F004ADE4D /* DIALPageViewControllerTitleBarCollectionViewFlowLayout.m */; };
 		88890A751DBC4D00006C2F51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88890A741DBC4D00006C2F51 /* main.m */; };
 		88890A781DBC4D00006C2F51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88890A771DBC4D00006C2F51 /* AppDelegate.m */; };
 		88890A7B1DBC4D00006C2F51 /* DIALMainCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88890A7A1DBC4D00006C2F51 /* DIALMainCollectionViewController.m */; };
@@ -20,6 +27,17 @@
 		88890AAE1DBC5C7B006C2F51 /* DIALCategoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88890AAD1DBC5C7B006C2F51 /* DIALCategoryCollectionViewCell.m */; };
 		888E9DBD1DBC7FDC00D4FCA0 /* DIALCollectionViewFloatLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 888E9DBC1DBC7FDC00D4FCA0 /* DIALCollectionViewFloatLayout.m */; };
 		888E9DC11DBDE7C200D4FCA0 /* ABMKNetworkRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 888E9DBF1DBDE7C100D4FCA0 /* ABMKNetworkRequestOperation.m */; };
+		88CA6D3E1E11A14A0002A871 /* DIALTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CA6D3D1E11A14A0002A871 /* DIALTabBar.m */; };
+		88DAC8491DE0E3E700359F7A /* DIALLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88DAC8481DE0E3E700359F7A /* DIALLaunchScreen.storyboard */; };
+		88DAC84C1DE0F3F400359F7A /* DIALActionSheetAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DAC84B1DE0F3F400359F7A /* DIALActionSheetAnimator.m */; };
+		88DAC84F1DE105D100359F7A /* DIALActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DAC84E1DE105D100359F7A /* DIALActionSheetViewController.m */; };
+		88DAC8521DE8EB4C00359F7A /* UIColor+hexValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DAC8511DE8EB4C00359F7A /* UIColor+hexValue.m */; };
+		88DAC8551DE8EFA800359F7A /* DIALMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DAC8541DE8EFA800359F7A /* DIALMainViewController.m */; };
+		88DAC8581DE8F0FB00359F7A /* DIALBroadcastFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DAC8571DE8F0FB00359F7A /* DIALBroadcastFormView.m */; };
+		88F4FA6D1E22D4DD00C3B065 /* AVCamAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F4FA661E22D4DD00C3B065 /* AVCamAppDelegate.m */; };
+		88F4FA6E1E22D4DD00C3B065 /* AVCamPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F4FA681E22D4DD00C3B065 /* AVCamPreviewView.m */; };
+		88F4FA6F1E22D4DD00C3B065 /* AVCamCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F4FA6A1E22D4DD00C3B065 /* AVCamCameraViewController.m */; };
+		88F4FA701E22D4DD00C3B065 /* AVCamPhotoCaptureDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F4FA6C1E22D4DD00C3B065 /* AVCamPhotoCaptureDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +58,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		882772AC1DD7A64E000742CA /* DIALBroadcastTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIALBroadcastTableViewController.h; sourceTree = "<group>"; };
+		882772AD1DD7A64E000742CA /* DIALBroadcastTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIALBroadcastTableViewController.m; sourceTree = "<group>"; };
+		882772AF1DD7A74D000742CA /* DIALBroadcastTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIALBroadcastTableViewCell.h; sourceTree = "<group>"; };
+		882772B01DD7A74D000742CA /* DIALBroadcastTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIALBroadcastTableViewCell.m; sourceTree = "<group>"; };
+		882772B21DD7BF83000742CA /* DIALBroadcastObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIALBroadcastObject.h; sourceTree = "<group>"; };
+		882772B31DD7BF83000742CA /* DIALBroadcastObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIALBroadcastObject.m; sourceTree = "<group>"; };
+		884EB99C1E3D49320013619C /* DIALFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIALFriendViewController.h; sourceTree = "<group>"; };
+		884EB99D1E3D49320013619C /* DIALFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIALFriendViewController.m; sourceTree = "<group>"; };
+		884EB99F1E3D49460013619C /* DIALProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIALProfileViewController.h; sourceTree = "<group>"; };
+		884EB9A01E3D49460013619C /* DIALProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIALProfileViewController.m; sourceTree = "<group>"; };
+		8853FA831E75D4B900614D08 /* DIALTempStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIALTempStorage.h; sourceTree = "<group>"; };
+		8853FA841E75D4B900614D08 /* DIALTempStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIALTempStorage.m; sourceTree = "<group>"; };
 		8861D5951DC4CB5A004ADE4D /* DIALTestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIALTestTableViewController.h; sourceTree = "<group>"; };
 		8861D5961DC4CB5A004ADE4D /* DIALTestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIALTestTableViewController.m; sourceTree = "<group>"; };
 		8861D5981DC4CDDC004ADE4D /* DIALRootPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIALRootPageViewController.h; sourceTree = "<group>"; };
 		8861D5991DC4CDDC004ADE4D /* DIALRootPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIALRootPageViewController.m; sourceTree = "<group>"; };
+		8861D5A31DC5140F004ADE4D /* DIALPageViewControllerTitleBarCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIALPageViewControllerTitleBarCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		8861D5A41DC5140F004ADE4D /* DIALPageViewControllerTitleBarCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIALPageViewControllerTitleBarCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		88890A701DBC4D00006C2F51 /* DialIniOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DialIniOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88890A741DBC4D00006C2F51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88890A761DBC4D00006C2F51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +100,27 @@
 		888E9DBE1DBDE7C100D4FCA0 /* ABMKNetworkRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABMKNetworkRequestOperation.h; sourceTree = "<group>"; };
 		888E9DBF1DBDE7C100D4FCA0 /* ABMKNetworkRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABMKNetworkRequestOperation.m; sourceTree = "<group>"; };
 		888E9DC01DBDE7C100D4FCA0 /* ABMKNetworkRequestOperation+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ABMKNetworkRequestOperation+Subclass.h"; sourceTree = "<group>"; };
+		88CA6D3C1E11A14A0002A871 /* DIALTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIALTabBar.h; sourceTree = "<group>"; };
+		88CA6D3D1E11A14A0002A871 /* DIALTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIALTabBar.m; sourceTree = "<group>"; };
+		88DAC8481DE0E3E700359F7A /* DIALLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DIALLaunchScreen.storyboard; sourceTree = "<group>"; };
+		88DAC84A1DE0F3F400359F7A /* DIALActionSheetAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIALActionSheetAnimator.h; sourceTree = "<group>"; };
+		88DAC84B1DE0F3F400359F7A /* DIALActionSheetAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIALActionSheetAnimator.m; sourceTree = "<group>"; };
+		88DAC84D1DE105D100359F7A /* DIALActionSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIALActionSheetViewController.h; sourceTree = "<group>"; };
+		88DAC84E1DE105D100359F7A /* DIALActionSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIALActionSheetViewController.m; sourceTree = "<group>"; };
+		88DAC8501DE8EB4C00359F7A /* UIColor+hexValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+hexValue.h"; sourceTree = "<group>"; };
+		88DAC8511DE8EB4C00359F7A /* UIColor+hexValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+hexValue.m"; sourceTree = "<group>"; };
+		88DAC8531DE8EFA800359F7A /* DIALMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIALMainViewController.h; sourceTree = "<group>"; };
+		88DAC8541DE8EFA800359F7A /* DIALMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIALMainViewController.m; sourceTree = "<group>"; };
+		88DAC8561DE8F0FB00359F7A /* DIALBroadcastFormView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIALBroadcastFormView.h; sourceTree = "<group>"; };
+		88DAC8571DE8F0FB00359F7A /* DIALBroadcastFormView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIALBroadcastFormView.m; sourceTree = "<group>"; };
+		88F4FA651E22D4DD00C3B065 /* AVCamAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamAppDelegate.h; sourceTree = "<group>"; };
+		88F4FA661E22D4DD00C3B065 /* AVCamAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamAppDelegate.m; sourceTree = "<group>"; };
+		88F4FA671E22D4DD00C3B065 /* AVCamPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamPreviewView.h; sourceTree = "<group>"; };
+		88F4FA681E22D4DD00C3B065 /* AVCamPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamPreviewView.m; sourceTree = "<group>"; };
+		88F4FA691E22D4DD00C3B065 /* AVCamCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamCameraViewController.h; sourceTree = "<group>"; };
+		88F4FA6A1E22D4DD00C3B065 /* AVCamCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamCameraViewController.m; sourceTree = "<group>"; };
+		88F4FA6B1E22D4DD00C3B065 /* AVCamPhotoCaptureDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamPhotoCaptureDelegate.h; sourceTree = "<group>"; };
+		88F4FA6C1E22D4DD00C3B065 /* AVCamPhotoCaptureDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamPhotoCaptureDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +171,7 @@
 		88890A721DBC4D00006C2F51 /* DialIniOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				88F4FA641E22D4B900C3B065 /* Extra */,
 				888E9DC61DBDE81000D4FCA0 /* Shared */,
 				888E9DC51DBDE7ED00D4FCA0 /* Models */,
 				888E9DC41DBDE7DF00D4FCA0 /* Controllers */,
@@ -172,6 +226,11 @@
 			children = (
 				88890AAC1DBC5C7B006C2F51 /* DIALCategoryCollectionViewCell.h */,
 				88890AAD1DBC5C7B006C2F51 /* DIALCategoryCollectionViewCell.m */,
+				88DAC8481DE0E3E700359F7A /* DIALLaunchScreen.storyboard */,
+				88DAC8561DE8F0FB00359F7A /* DIALBroadcastFormView.h */,
+				88DAC8571DE8F0FB00359F7A /* DIALBroadcastFormView.m */,
+				88CA6D3C1E11A14A0002A871 /* DIALTabBar.h */,
+				88CA6D3D1E11A14A0002A871 /* DIALTabBar.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -187,6 +246,24 @@
 				8861D5961DC4CB5A004ADE4D /* DIALTestTableViewController.m */,
 				8861D5981DC4CDDC004ADE4D /* DIALRootPageViewController.h */,
 				8861D5991DC4CDDC004ADE4D /* DIALRootPageViewController.m */,
+				8861D5A31DC5140F004ADE4D /* DIALPageViewControllerTitleBarCollectionViewFlowLayout.h */,
+				8861D5A41DC5140F004ADE4D /* DIALPageViewControllerTitleBarCollectionViewFlowLayout.m */,
+				882772AC1DD7A64E000742CA /* DIALBroadcastTableViewController.h */,
+				882772AD1DD7A64E000742CA /* DIALBroadcastTableViewController.m */,
+				882772AF1DD7A74D000742CA /* DIALBroadcastTableViewCell.h */,
+				882772B01DD7A74D000742CA /* DIALBroadcastTableViewCell.m */,
+				88DAC84A1DE0F3F400359F7A /* DIALActionSheetAnimator.h */,
+				88DAC84B1DE0F3F400359F7A /* DIALActionSheetAnimator.m */,
+				88DAC84D1DE105D100359F7A /* DIALActionSheetViewController.h */,
+				88DAC84E1DE105D100359F7A /* DIALActionSheetViewController.m */,
+				88DAC8531DE8EFA800359F7A /* DIALMainViewController.h */,
+				88DAC8541DE8EFA800359F7A /* DIALMainViewController.m */,
+				884EB99C1E3D49320013619C /* DIALFriendViewController.h */,
+				884EB99D1E3D49320013619C /* DIALFriendViewController.m */,
+				884EB99F1E3D49460013619C /* DIALProfileViewController.h */,
+				884EB9A01E3D49460013619C /* DIALProfileViewController.m */,
+				8853FA831E75D4B900614D08 /* DIALTempStorage.h */,
+				8853FA841E75D4B900614D08 /* DIALTempStorage.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -196,6 +273,8 @@
 			children = (
 				88890AA91DBC53FA006C2F51 /* DIALCategoryObject.h */,
 				88890AAA1DBC53FA006C2F51 /* DIALCategoryObject.m */,
+				882772B21DD7BF83000742CA /* DIALBroadcastObject.h */,
+				882772B31DD7BF83000742CA /* DIALBroadcastObject.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -205,8 +284,25 @@
 			children = (
 				88890A761DBC4D00006C2F51 /* AppDelegate.h */,
 				88890A771DBC4D00006C2F51 /* AppDelegate.m */,
+				88DAC8501DE8EB4C00359F7A /* UIColor+hexValue.h */,
+				88DAC8511DE8EB4C00359F7A /* UIColor+hexValue.m */,
 			);
 			name = Shared;
+			sourceTree = "<group>";
+		};
+		88F4FA641E22D4B900C3B065 /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				88F4FA651E22D4DD00C3B065 /* AVCamAppDelegate.h */,
+				88F4FA661E22D4DD00C3B065 /* AVCamAppDelegate.m */,
+				88F4FA671E22D4DD00C3B065 /* AVCamPreviewView.h */,
+				88F4FA681E22D4DD00C3B065 /* AVCamPreviewView.m */,
+				88F4FA691E22D4DD00C3B065 /* AVCamCameraViewController.h */,
+				88F4FA6A1E22D4DD00C3B065 /* AVCamCameraViewController.m */,
+				88F4FA6B1E22D4DD00C3B065 /* AVCamPhotoCaptureDelegate.h */,
+				88F4FA6C1E22D4DD00C3B065 /* AVCamPhotoCaptureDelegate.m */,
+			);
+			name = Extra;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,11 +367,13 @@
 		88890A681DBC4D00006C2F51 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Esposito, Timothy";
 				TargetAttributes = {
 					88890A6F1DBC4D00006C2F51 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Z8N63D6WJ6;
+						ProvisioningStyle = Automatic;
 					};
 					88890A8B1DBC4D00006C2F51 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -313,6 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88890A831DBC4D00006C2F51 /* Assets.xcassets in Resources */,
+				88DAC8491DE0E3E700359F7A /* DIALLaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,16 +436,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				882772B11DD7A74D000742CA /* DIALBroadcastTableViewCell.m in Sources */,
+				88CA6D3E1E11A14A0002A871 /* DIALTabBar.m in Sources */,
+				88F4FA6E1E22D4DD00C3B065 /* AVCamPreviewView.m in Sources */,
+				88DAC8521DE8EB4C00359F7A /* UIColor+hexValue.m in Sources */,
+				88F4FA6D1E22D4DD00C3B065 /* AVCamAppDelegate.m in Sources */,
+				8853FA851E75D4B900614D08 /* DIALTempStorage.m in Sources */,
+				884EB99E1E3D49320013619C /* DIALFriendViewController.m in Sources */,
+				8861D5A61DC5140F004ADE4D /* DIALPageViewControllerTitleBarCollectionViewFlowLayout.m in Sources */,
 				88890A7B1DBC4D00006C2F51 /* DIALMainCollectionViewController.m in Sources */,
+				88F4FA6F1E22D4DD00C3B065 /* AVCamCameraViewController.m in Sources */,
+				88DAC8581DE8F0FB00359F7A /* DIALBroadcastFormView.m in Sources */,
+				882772B41DD7BF83000742CA /* DIALBroadcastObject.m in Sources */,
+				88DAC8551DE8EFA800359F7A /* DIALMainViewController.m in Sources */,
 				8861D5971DC4CB5A004ADE4D /* DIALTestTableViewController.m in Sources */,
 				88890A781DBC4D00006C2F51 /* AppDelegate.m in Sources */,
+				882772AE1DD7A64E000742CA /* DIALBroadcastTableViewController.m in Sources */,
 				88890AAE1DBC5C7B006C2F51 /* DIALCategoryCollectionViewCell.m in Sources */,
+				88DAC84C1DE0F3F400359F7A /* DIALActionSheetAnimator.m in Sources */,
 				88890AAB1DBC53FA006C2F51 /* DIALCategoryObject.m in Sources */,
+				88DAC84F1DE105D100359F7A /* DIALActionSheetViewController.m in Sources */,
 				88890A811DBC4D00006C2F51 /* DialIniOSApp.xcdatamodeld in Sources */,
 				888E9DBD1DBC7FDC00D4FCA0 /* DIALCollectionViewFloatLayout.m in Sources */,
 				8861D59A1DC4CDDC004ADE4D /* DIALRootPageViewController.m in Sources */,
 				88890A751DBC4D00006C2F51 /* main.m in Sources */,
 				888E9DC11DBDE7C200D4FCA0 /* ABMKNetworkRequestOperation.m in Sources */,
+				884EB9A11E3D49460013619C /* DIALProfileViewController.m in Sources */,
+				88F4FA701E22D4DD00C3B065 /* AVCamPhotoCaptureDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,13 +512,15 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -441,8 +559,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -470,9 +590,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Z8N63D6WJ6;
 				INFOPLIST_FILE = DialIniOSApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dialin.DialIniOSApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dialin.app.DialIniOSApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -481,9 +603,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Z8N63D6WJ6;
 				INFOPLIST_FILE = DialIniOSApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dialin.DialIniOSApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dialin.app.DialIniOSApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

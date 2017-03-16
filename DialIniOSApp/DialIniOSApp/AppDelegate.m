@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
-#import "DIALRootPageViewController.h"
+#import "DIALMainViewController.h"
+#import "DIALBroadcastTableViewController.h"
+#import "UIColor+hexValue.h"
+#import "DIALBroadcastObject.h"
 
 @interface AppDelegate ()
 
@@ -19,10 +22,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     
-    DIALRootPageViewController *rootPageViewController = [[DIALRootPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
+    DIALMainViewController *mainViewController = [[DIALMainViewController alloc] init];
     
     // Set root view controller and make windows visible
-    self.window.rootViewController = rootPageViewController;
+    self.window.rootViewController = mainViewController;
     [self.window makeKeyAndVisible];
     
     return YES;
